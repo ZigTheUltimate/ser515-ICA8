@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0df66c66-77cd-47a7-a57b-9fd189cca61f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/urinals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/urinals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestJunit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestJunit.java" afterDir="false" />
     </list>
@@ -83,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666893674002</updated>
-      <workItem from="1666893675263" duration="12657000" />
+      <workItem from="1666893675263" duration="13039000" />
     </task>
     <task id="LOCAL-00001" summary="Added skeleton of important functions">
       <created>1666929449184</created>
@@ -141,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666938059832</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Solved output to file issue">
+      <created>1666939953669</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666939953669</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +173,7 @@
     <MESSAGE value="Passed test cases&#10;Passed all test cases given in assignment specifications" />
     <MESSAGE value="New test case added, that failed" />
     <MESSAGE value="Solved bug that caused last test case to fail" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved bug that caused last test case to fail" />
+    <MESSAGE value="Solved output to file issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved output to file issue" />
   </component>
 </project>

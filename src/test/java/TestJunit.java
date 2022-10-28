@@ -64,5 +64,16 @@ public class TestJunit {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+
+        urinals.outputToFile(123);
+        outputFile = new File("rule1.txt");
+        try {
+            BufferedReader br = new BufferedReader(new FileReader(outputFile));
+            assertEquals(123, Integer.parseInt(br.readLine()));
+        } catch (FileNotFoundException e) {
+            Assertions.fail("Output file not created");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

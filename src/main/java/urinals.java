@@ -28,7 +28,11 @@ public class urinals {
     protected static void outputToFile(int output) {
         System.out.println(output);
         File outFile = new File("rule.txt");
-
+        int count = 0;
+        while(outFile.exists()){
+            count++;
+            outFile = new File("rule" + count + ".txt");
+        }
         FileWriter os = null;
         try {
             os = new FileWriter(outFile);
