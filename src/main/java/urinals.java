@@ -1,3 +1,4 @@
+
 /**
  * @author Anmol More
  */
@@ -22,11 +23,13 @@ public class urinals {
     }
 
     protected static int countUrinals(String input) {
-        return -1;
+        System.out.println("urinals.countUrinals not implemented yet");
+        return 1;
     }
 
     protected static String inputFromFile(String arg) {
-        return arg;
+        System.out.println("urinals.inputFromFile not implemented yet");
+        return "Hello";
     }
 
 }
