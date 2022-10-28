@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * @author Anmol More
  */
@@ -10,7 +7,7 @@ public class urinals {
     public static void main(String[] args) {
 
         // TODO: Read input from file
-        List<Integer> input;
+        String input;
         if (args[0] == null || args[0].trim().isEmpty()) {
             System.out.println("You need to specify a path!");
             return;
@@ -24,12 +21,12 @@ public class urinals {
 
     }
 
-    private static int countUrinals(List<Integer> input) {
+    protected static int countUrinals(String input) {
         return -1;
     }
 
-    protected static List<Integer> inputFromFile(String arg) {
-        return new ArrayList<>();
+    protected static String inputFromFile(String arg) {
+        return arg;
     }
 
 }
