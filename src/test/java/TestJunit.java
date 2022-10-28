@@ -20,6 +20,7 @@ public class TestJunit {
     @Test
     public void testCountUrinal() {
         HashMap<String, Integer> testCases = new HashMap<>();
+
         testCases.put("10001", 1); //returns  (10101)
 
         testCases.put("1001", 0); //returns  (1001)
@@ -29,6 +30,11 @@ public class TestJunit {
         testCases.put("0000", 2); //returns  (1001)
 
         testCases.put("01000", 1); //returns  (01010 or 01001)
+
+        testCases.put("10101", 0); // returns (10101)
+
+        testCases.put("11111", -1); // wrong input
+
         int count = 1;
         for (Map.Entry<String, Integer> testCase: testCases.entrySet()) {
             System.out.println("====== Anmol More == TEST TYPE TWO, TEST NO.: " + count + " EXECUTED =======");

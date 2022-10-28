@@ -68,3 +68,26 @@ After implementation of urinals.countUrinals method:
     org.opentest4j.AssertionFailedError:
     Expected :2
     Actual   :1
+
+New test case added for test type 2:
+Input: 11111
+Expected Output: -1
+Explanation: The input case is not possible as it violates the unwritten rule that you leave at least one urinal free between you and
+the next person peeing. 
+
+1. ====== Anmol More == TEST TYPE ONE EXECUTED =======
+   ====== Anmol More == TEST TYPE ONE EXECUTED =======
+
+2.
+   ====== Anmol More == TEST TYPE TWO, TEST NO.: 1 EXECUTED =======
+   01000
+   ====== Anmol More == TEST TYPE TWO, TEST NO.: 2 EXECUTED =======
+   0000
+   ====== Anmol More == TEST TYPE TWO, TEST NO.: 3 EXECUTED =======
+   1001
+   ====== Anmol More == TEST TYPE TWO, TEST NO.: 4 EXECUTED =======
+   11111
+
+   org.opentest4j.AssertionFailedError:
+   Expected :-1
+   Actual   :0
