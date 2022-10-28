@@ -1,9 +1,11 @@
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class TestJunit {
     @Test
@@ -35,7 +37,12 @@ public class TestJunit {
 
         testCases.put("11111", -1); // wrong input
 
+        testCases.put("0", 1); // returns (1)
+
+        testCases.put("001100", -1); // wrong input
+
         int count = 1;
+
         for (Map.Entry<String, Integer> testCase: testCases.entrySet()) {
             System.out.println("====== Anmol More == TEST TYPE TWO, TEST NO.: " + count + " EXECUTED =======");
             System.out.println(testCase.getKey());
@@ -43,5 +50,19 @@ public class TestJunit {
             count++;
         }
 
+    }
+
+    @Test
+    public void testOutput(){
+        urinals.outputToFile(123);
+        File outputFile = new File("rule.txt");
+        try {
+            BufferedReader br = new BufferedReader(new FileReader(outputFile));
+            assertEquals(123, Integer.parseInt(br.readLine()));
+        } catch (FileNotFoundException e) {
+            Assertions.fail("Output file not created");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

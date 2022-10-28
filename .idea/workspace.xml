@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0df66c66-77cd-47a7-a57b-9fd189cca61f" name="Changes" comment="Solved">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="0df66c66-77cd-47a7-a57b-9fd189cca61f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/urinals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/urinals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestJunit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestJunit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,7 @@
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestJunit.testOutput">
     <configuration name="TestJunit.testCountUrinal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ser515-ICA8" />
       <option name="PACKAGE_NAME" value="" />
@@ -57,8 +58,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestJunit.testOutput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ser515-ICA8" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestJunit" />
+      <option name="METHOD_NAME" value="testOutput" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestJunit.testOutput" />
         <item itemvalue="JUnit.TestJunit.testCountUrinal" />
       </list>
     </recent_temporary>
@@ -71,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666893674002</updated>
-      <workItem from="1666893675263" duration="11044000" />
+      <workItem from="1666893675263" duration="12657000" />
     </task>
     <task id="LOCAL-00001" summary="Added skeleton of important functions">
       <created>1666929449184</created>
@@ -122,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666937975506</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Solved bug that caused last test case to fail">
+      <created>1666938059832</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666938059832</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +166,7 @@
     <MESSAGE value="Updated README.md" />
     <MESSAGE value="Passed test cases&#10;Passed all test cases given in assignment specifications" />
     <MESSAGE value="New test case added, that failed" />
-    <option name="LAST_COMMIT_MESSAGE" value="New test case added, that failed" />
+    <MESSAGE value="Solved bug that caused last test case to fail" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved bug that caused last test case to fail" />
   </component>
 </project>

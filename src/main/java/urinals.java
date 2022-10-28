@@ -1,4 +1,5 @@
 import java.io.*;
+import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,7 +11,6 @@ public class urinals {
 
     public static void main(String[] args) {
 
-        // TODO: Read input from file
         String input;
         if (args[0] == null || args[0].trim().isEmpty()) {
             System.out.println("You need to specify a path!");
@@ -18,10 +18,26 @@ public class urinals {
         } else {
             input = inputFromFile(args[0]);
         }
-        // TODO: Count urinals
+
         int output = countUrinals(input);
 
+        outputToFile(output);
+
+    }
+
+    protected static void outputToFile(int output) {
         System.out.println(output);
+        File outFile = new File("rule.txt");
+
+        FileWriter os = null;
+        try {
+            os = new FileWriter(outFile);
+            os.write(output + "");
+            os.close();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
 
     }
 
