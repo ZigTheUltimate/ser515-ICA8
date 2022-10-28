@@ -42,3 +42,18 @@ When tests were ran for skeletal code, the test cases failed. The following outp
 	org.opentest4j.AssertionFailedError: 
 	Expected :1
 	Actual   :-1
+
+
+After implementation of urinals.inputFromFile method:
+1. ====== Anmol More == TEST TYPE ONE EXECUTED =======
+   ====== Anmol More == TEST TYPE ONE EXECUTED =======
+
+
+2. ====== Anmol More == TEST TYPE TWO, TEST NO.: 1 EXECUTED =======
+   urinals.countUrinals not implemented yet
+   ====== Anmol More == TEST TYPE TWO, TEST NO.: 2 EXECUTED =======
+   urinals.countUrinals not implemented yet
+
+    org.opentest4j.AssertionFailedError:
+    Expected :2
+    Actual   :1
