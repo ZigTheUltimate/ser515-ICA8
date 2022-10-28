@@ -8,9 +8,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class TestJunit {
     @Test
     public void testInput() {
-        String str = "test";
+        String str = "C:\\Users\\morea\\OneDrive\\Desktop\\input1.txt";
         System.out.println("====== Anmol More == TEST TYPE ONE EXECUTED =======");
-        assertEquals("Hello", urinals.inputFromFile(str));
+        assertEquals("1001", urinals.inputFromFile(str));
+
+        str = "C:\\Users\\morea\\OneDrive\\Desktop\\input2.txt";
+        System.out.println("====== Anmol More == TEST TYPE ONE EXECUTED =======");
+        assertEquals("10001", urinals.inputFromFile(str));
     }
 
     @Test
@@ -27,7 +31,7 @@ public class TestJunit {
         testCases.put("01000", 1); //returns  (01010 or 01001)
         int count = 1;
         for (Map.Entry<String, Integer> testCase: testCases.entrySet()) {
-            System.out.println("====== Anmol More == TEST TYPE TWO COUNT" + count + " EXECUTED =======");
+            System.out.println("====== Anmol More == TEST TYPE TWO, TEST NO.: " + count + " EXECUTED =======");
             assertEquals(testCase.getValue(), urinals.countUrinals(testCase.getKey()));
             count++;
         }

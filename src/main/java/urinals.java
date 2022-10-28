@@ -1,3 +1,5 @@
+import java.io.*;
+import java.nio.Buffer;
 
 /**
  * @author Anmol More
@@ -28,8 +30,25 @@ public class urinals {
     }
 
     protected static String inputFromFile(String arg) {
-        System.out.println("urinals.inputFromFile not implemented yet");
-        return "Hello";
+        File newFile = new File(arg);
+
+        FileReader fr = null;
+        String output = "";
+        try {
+            fr = new FileReader(newFile);
+            BufferedReader br = new BufferedReader(fr);
+
+
+            String line;
+            while ((line = br.readLine()) != null){
+                output = line;
+            }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+
+        return output;
     }
 
 }
