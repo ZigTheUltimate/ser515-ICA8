@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0df66c66-77cd-47a7-a57b-9fd189cca61f" name="Changes" comment="">
+    <list default="true" id="0df66c66-77cd-47a7-a57b-9fd189cca61f" name="Changes" comment="Added new test case">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/urinals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/urinals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestJunit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestJunit.java" afterDir="false" />
     </list>
@@ -47,6 +48,23 @@
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="TestJunit.testCountUrinal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ser515-ICA8" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestJunit" />
+      <option name="METHOD_NAME" value="testCountUrinal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestJunit.testCountUrinal" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666893674002</updated>
-      <workItem from="1666893675263" duration="7612000" />
+      <workItem from="1666893675263" duration="10390000" />
     </task>
     <task id="LOCAL-00001" summary="Added skeleton of important functions">
       <created>1666929449184</created>
@@ -78,7 +96,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666931951661</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added new testcase">
+      <created>1666933029279</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666933029279</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated README.md">
+      <created>1666933218171</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666933218171</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +120,8 @@
     <MESSAGE value="Added skeleton of important functions" />
     <MESSAGE value="Added essential unit tests" />
     <MESSAGE value="Added new test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new test" />
+    <MESSAGE value="Added new testcase" />
+    <MESSAGE value="Updated README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md" />
   </component>
 </project>

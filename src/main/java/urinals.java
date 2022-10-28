@@ -1,5 +1,6 @@
 import java.io.*;
-import java.nio.Buffer;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author Anmol More
@@ -25,14 +26,36 @@ public class urinals {
     }
 
     protected static int countUrinals(String input) {
-        System.out.println("urinals.countUrinals not implemented yet");
-        return 1;
+        List<Integer> inUrinals = new ArrayList<>();
+        int flag = 1;
+        int count = 0;
+        for (String c: input.split("")) {
+            inUrinals.add(Integer.parseInt(c));
+        }
+
+        for (int i = 0; i < inUrinals.size() - 1; i++) {
+            if (inUrinals.get(i) == 0){
+                if (flag == 1 && inUrinals.get(i+1) == 0){
+                    count++;
+                    flag = 0;
+                } else {
+                    flag = 1;
+                }
+            } else {
+                flag = 0;
+            }
+        }
+        if (inUrinals.get(inUrinals.size() - 1) == 0 && flag == 1){
+            count++;
+        }
+
+        return count;
     }
 
     protected static String inputFromFile(String arg) {
         File newFile = new File(arg);
 
-        FileReader fr = null;
+        FileReader fr;
         String output = "";
         try {
             fr = new FileReader(newFile);

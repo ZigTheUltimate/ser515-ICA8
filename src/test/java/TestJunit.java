@@ -32,6 +32,7 @@ public class TestJunit {
         int count = 1;
         for (Map.Entry<String, Integer> testCase: testCases.entrySet()) {
             System.out.println("====== Anmol More == TEST TYPE TWO, TEST NO.: " + count + " EXECUTED =======");
+            System.out.println(testCase.getKey());
             assertEquals(testCase.getValue(), urinals.countUrinals(testCase.getKey()));
             count++;
         }
