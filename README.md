@@ -27,10 +27,18 @@ The tests:
 
 When tests were ran for skeletal code, the test cases failed. The following output was obtained:
 
-1. org.opentest4j.AssertionFailedError: 
-Expected :Hello
-Actual   :C:\Users\morea\OneDrive\Desktop\input.txt
+1. 
+	====== Anmol More == TEST TYPE ONE EXECUTED =======
+	urinals.inputFromFile not implemented yet
 
-2. org.opentest4j.AssertionFailedError: 
-Expected :1
-Actual   :-1
+	org.opentest4j.AssertionFailedError: 
+	Expected :Hello
+	Actual   :test
+
+2. 	
+	====== Anmol More == TEST TYPE TWO COUNT1 EXECUTED =======
+	urinals.countUrinals not implemented yet
+
+	org.opentest4j.AssertionFailedError: 
+	Expected :1
+	Actual   :-1
