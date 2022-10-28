@@ -24,3 +24,13 @@ The tests:
         testCases.put("01000", 1); //returns  (01010 or 01001)
 		
 		assertEquals(testCase.getValue(), urinals.countUrinals(testCase.getKey()));
+
+When tests were ran for skeletal code, the test cases failed. The following output was obtained:
+
+1. org.opentest4j.AssertionFailedError: 
+Expected :Hello
+Actual   :C:\Users\morea\OneDrive\Desktop\input.txt
+
+2. org.opentest4j.AssertionFailedError: 
+Expected :1
+Actual   :-1
