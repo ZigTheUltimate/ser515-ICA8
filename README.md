@@ -91,3 +91,5 @@ the next person peeing.
    org.opentest4j.AssertionFailedError:
    Expected :-1
    Actual   :0
+
+Solved last failure by checking for consecutive 1s in input

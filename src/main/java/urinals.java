@@ -42,6 +42,9 @@ public class urinals {
                     flag = 1;
                 }
             } else {
+                if(flag == 0){
+                    return -1;
+                }
                 flag = 0;
             }
         }
